@@ -1,0 +1,12 @@
+# Python caches and environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated application logs.
+Logging/*.log
+
+# Local experiment paths.
+local_config.yml

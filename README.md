@@ -1,10 +1,10 @@
-# RamanSpectroscopy
+# RamanSpectroscopicAnalysis
 
-`RamanSpectroscopy` loads Raman CSV spectra, fits Gaussian peaks, calculates
+`RamanSpectroscopicAnalysis` loads Raman CSV spectra, fits Gaussian peaks, calculates
 quality factors, creates standard plots, and provides experiment-specific
 scripts with rotating application logs.
 
-See the detailed [RamanSpectroscopy architecture](architecture.md) for
+See the detailed [RamanSpectroscopicAnalysis architecture](architecture.md) for
 component ownership and data flow.
 
 The repository pins Python with `.python-version`, installs dependencies from

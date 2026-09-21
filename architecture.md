@@ -1,8 +1,8 @@
-# RamanSpectroscopy architecture
+# RamanSpectroscopicAnalysis architecture
 
 ## Scope
 
-`RamanSpectroscopy` processes instrument-generated Raman CSV files. Its
+`RamanSpectroscopicAnalysis` processes instrument-generated Raman CSV files. Its
 pipeline loads wavelength and intensity arrays, optionally fits Gaussian peaks,
 calculates quality factors, and writes standardized plots.
 
@@ -36,7 +36,7 @@ Contains workflow-specific orchestration:
   peaks, and creates intensity and quality-factor scatter plots.
 - `ProcessSpecific.py` loads configured CSV files, creates raw-intensity plots,
   normalizes intensity by integration time, and creates normalized plots.
-- `InitializeScripts.py` adds `RamanSpectroscopy` to the import path and
+- `InitializeScripts.py` adds `RamanSpectroscopicAnalysis` to the import path and
   configures project logging.
 
 The scripts read `RAMAN_DATA_ROOT` from the ignored root `local_config.yml`.
